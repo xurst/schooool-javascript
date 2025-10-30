@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Kami for Google Chrome™",
+  "version": "2.0.21404",
+  "description": "Kami makes learning interactive, inclusive & accessible. Trusted by 50M+ users.",
+  "permissions": [
+    "management",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://raw.githubusercontent.com/*"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "download.png",
+      "48": "download.png",
+      "128": "download.png"
+    },
+    "default_title": "Open Kami"
+  },
+  "icons": {
+    "16": "download.png",
+    "48": "download.png",
+    "128": "download.png"
+  }
+}
